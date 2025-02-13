@@ -1,0 +1,44 @@
+{
+  "testScores": {
+    "From Scratch Tests": {
+      "FrScTe1": 0,
+      "FrScTe2": 0,
+      "FrScTe3": 0,
+      "FrScTe4": 0,
+      "FrScTe5": 0,
+      "FrScTe6": 0,
+      "FrScTe7": 0,
+      "FrScTe8": 0,
+      "FrScTe9": 0,
+      "FrScTe10": 0
+    }
+  },
+  "idToTestNameHash": {
+    "FrScTe1": "From Scratch Tests Binary Tree can get its value",
+    "FrScTe2": "From Scratch Tests Binary Tree can set its value",
+    "FrScTe3": "From Scratch Tests Binary Tree can insert a left child and return the created node",
+    "FrScTe4": "From Scratch Tests Binary Tree can insert a right child and return the created node",
+    "FrScTe5": "From Scratch Tests Binary Tree can get the value of its left child",
+    "FrScTe6": "From Scratch Tests Binary Tree can get the value of its right child",
+    "FrScTe7": "From Scratch Tests Univalued Binary Tree returns true when given a univalued tree",
+    "FrScTe8": "From Scratch Tests Univalued Binary Tree returns false when given a univalued tree",
+    "FrScTe9": "From Scratch Tests Invert inverts a simple balanced binary tree and returns the root",
+    "FrScTe10": "From Scratch Tests Invert correctly inverts binary tree"
+  },
+  "testNameToIdHash": {
+    "From Scratch Tests Binary Tree can get its value": "FrScTe1",
+    "From Scratch Tests Binary Tree can set its value": "FrScTe2",
+    "From Scratch Tests Binary Tree can insert a left child and return the created node": "FrScTe3",
+    "From Scratch Tests Binary Tree can insert a right child and return the created node": "FrScTe4",
+    "From Scratch Tests Binary Tree can get the value of its left child": "FrScTe5",
+    "From Scratch Tests Binary Tree can get the value of its right child": "FrScTe6",
+    "From Scratch Tests Univalued Binary Tree returns true when given a univalued tree": "FrScTe7",
+    "From Scratch Tests Univalued Binary Tree returns false when given a univalued tree": "FrScTe8",
+    "From Scratch Tests Invert inverts a simple balanced binary tree and returns the root": "FrScTe9",
+    "From Scratch Tests Invert correctly inverts binary tree": "FrScTe10"
+  },
+  "humanReadable": {
+    "From Scratch Tests": "0/10",
+    "finalTestScore": "FINAL SCORE: 0/10"
+  }
+}
