@@ -65,15 +65,22 @@ const isUnivalueTree = (root) => {
 const invert = (root) => {
   // Base case: return if tree is empty or a leaf node
   if (!root) return root;
+
   // Swap left and right
   [root.left, root.right] = [root.right, root.left];
-  // Recursively invert left subtree
+
+  // Recursively invert left subtree (DFS traversal)
   if (root.left) invert(root.left);
-  // Recursively invert right subtree
+
+  // Recursively invert right subtree (DFS traversal)
   if (root.right) invert(root.right);
+
   // Return the root of the inverted tree
   return root;
 };
+// This function performs a depth-first search (DFS) traversal of the tree.
+// It processes each node, swaps its children, and recursively calls itself on the left and right subtrees.
+// The traversal follows a pre-order DFS pattern (node -> left -> right).
 
 // Finds the second minimum value in a special binary tree
 const secondMinimumNode = (root) => {
